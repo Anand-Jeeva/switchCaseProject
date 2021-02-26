@@ -1,0 +1,27 @@
+import java.util.*;
+class mulitCase{
+	public static void main(String arr[])
+	{
+		Scanner sc=new Scanner(System.in);
+		int choice=sc.nextInt();
+
+		System.out.println("1)hi \t 2)hello \t3)hell HII");
+		switch(choice){
+			
+			case 1:
+				System.out.println("HIIIIIIIIIIIIIIIIIIIIII");
+			break;
+			case 2:
+				System.out.println("Hello ");
+			break;
+			case 3:
+				System.out.println("Hello HIIIIIIIII");
+			break;
+			default:
+				System.out.println("you din't gave correct one");
+			break;
+		}
+	}
+}
+
+ 
